@@ -19,8 +19,10 @@ Webhook operation prefixes:
 Webhook suffix | Conan build repo
 --- | --- 
 _new_hdsp_core  | github.com/bldrvnlw/conan-hdps-core
+_ImageLoaderPlugin | github.com/bldrvnlw/conan-ImageLoaderPlugin
+_ImageViewerPlugin | github.com/bldrvnlw/conan-ImageViewerPlugin
 
-For exampl if the secret Webhook  is "My$ecret#ebhook" to trigger the conan-hdps-core build enter 
+For example if the secret Webhook  is "My$ecret#ebhook" to trigger the conan-hdps-core build enter 
 "My$ecret#ebhook_new_hdsp_core" to trigger a conan-hdps-core build
 
 Get logs for the cloud function by

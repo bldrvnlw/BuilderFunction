@@ -43,6 +43,20 @@ var webhookActionMap = map[string]ForwardTarget{
 	"conan-hdps-core",
 	"build_trigger.json",
 	},
+	webhookSecret + "_ImageLoaderPlugin": ForwardTarget{
+		"Run new build",
+		"https://api.github.com/",
+		"bldrvnlw",
+		"conan-ImageLoaderPlugin",
+		"build_trigger.json",
+	},
+	webhookSecret + "_ImageViewerPlugin": ForwardTarget{
+		"Run new build",
+		"https://api.github.com/",
+		"bldrvnlw",
+		"conan-ImageViewerPlugin",
+		"build_trigger.json",
+	},
 	webhookSecret + "_test": ForwardTarget{
 		"***TEST***",
 		"***TEST***",
